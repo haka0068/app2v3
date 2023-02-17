@@ -1,13 +1,13 @@
 //
-//  table2.swift
+//  PageContentViewController.swift
 //  apptest2
 //
-//  Created by mediastyle on 10/02/2023.
+//  Created by mediastyle on 14/02/2023.
 //
 
-import UIKit 
+import UIKit
 
-class table2: UIViewController {
+class PageContentViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,11 +15,7 @@ class table2: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func buttontapped(_ sender: UIButton) {
-        performSegue(withIdentifier: "tableconnect", sender: nil)
-    }
-    
-   
+
     /*
     // MARK: - Navigation
 
